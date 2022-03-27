@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 function Header() {
   return (
     <div className='h-48 border-2 border-yellow-400'>
-      yooooooo
+        <Navbar/>
     </div>
   )
 }
