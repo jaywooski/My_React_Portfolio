@@ -1,11 +1,21 @@
 import React from 'react'
+import Footer from './Footer'
 import Header from './Header'
 
 function Homepage() {
   return (
-    <div>
-      <Header/>
-    </div>
+    <section>
+      <div>
+        <Header/>
+      </div>
+      <div>
+        //main stuff go here
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </section>
+    
   )
 }
 

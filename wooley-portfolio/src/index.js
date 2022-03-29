@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'flowbite';
-import './index.css';
 import App from './App';
+import './index.css';
+import 'flowbite';
 
 ReactDOM.render(
   <React.StrictMode>
