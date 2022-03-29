@@ -20,6 +20,9 @@ function Dropdown() {
           <Link to="/about">
             <li className='block py-2 px-4 border transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>About</li>
           </Link>
+          <Link to="/projects">
+            <li className='block py-2 px-4 border transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>Projects</li>
+          </Link>
           <Link to="/contact">
             <li className='block py-2 px-4 border transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>Contact</li>
           </Link>

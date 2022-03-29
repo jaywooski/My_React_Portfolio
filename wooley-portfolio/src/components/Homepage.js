@@ -8,7 +8,7 @@ function Homepage() {
       <div>
         <Header/>
       </div>
-      <div>
+      <div className=''>
         //main stuff go here
       </div>
       <div>

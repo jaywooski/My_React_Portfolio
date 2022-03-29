@@ -10,7 +10,6 @@ function Welcome() {
       <Link className='mx-auto' to='/home'>
         <button type="button" 
         className="text-gray-900 
-                  
                   bg-white 
                   border 
                   border-gray-300 

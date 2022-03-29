@@ -21,6 +21,11 @@ function Navbar() {
                 Contact
             </div>
         </Link>
+        <Link to='/projects'>
+            <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
+                Projects
+            </div>
+        </Link>
     </div>
   )
 }
