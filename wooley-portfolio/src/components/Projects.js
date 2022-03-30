@@ -9,25 +9,25 @@ import Header from './Header'
 function Projects() {
   return (
     <div>
-      <div><Header/></div>
+      <Header/>
       
-      <div className='flex flex-col justify-center'>
-        <div className='py-8 text-center text-2xl border-b-4 border-blue-600'>Here Are Some of My Projects</div>
-        {/* Featured Project Display */}
-        <div className='h-max flex flex-col justify-center my-4 py-8'> 
-            <div className='text-center text-xl text-white p-6 my-2 bg-blue-500 border border-4 border-blue-700'>Featured Project</div>
-            <ExternalLink href='https://catro-gaming.herokuapp.com/'>
-            <div className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:bg-indigo-600 hover:-translate-y-1  transition ease-in'>
-                <div className='text-center rounded-t-lg bg-blue-500 py-4 text-white '>Catro Gaming</div>
-                <img src="./assets/Arcatro_logo_4.png" alt="Programmer-Dashboard"/>
-            </div>
-            </ExternalLink>
-        </div>
+      <div className='flex flex-col justify-center '>
+          <div className='py-8 text-center text-2xl border-b-4 border-blue-600'>Here Are Some of My Projects</div>
+          {/* Featured Project Display */}
+          <div className='h-max flex flex-col justify-center my-4 py-8'> 
+              <div className='text-center text-xl text-white p-6 my-8 bg-blue-500 border border-4 border-blue-800 sticky top-36 z-10'>Featured Project</div>
+              <ExternalLink href='https://catro-gaming.herokuapp.com/'>
+              <div className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:bg-indigo-600 hover:-translate-y-1  transition ease-in'>
+                  <div className='text-center rounded-t-lg bg-blue-500 py-4 text-white '>Catro Gaming</div>
+                  <img src="./assets/Arcatro_logo_4.png" alt="Programmer-Dashboard"/>
+              </div>
+              </ExternalLink>
+          </div>
 
           {/* Rest of projects presented below  */}
-          <div className='flex flex-col h-40 '>
-            <div className='text-xl text-center text-white my-4 py-4 bg-blue-500 border border-4 border-blue-700'>Other Projects:</div>
-            <ul className='flex flex-wrap justify-around py-8 border'>
+          <div className='flex flex-col   '>
+            <div className='text-xl text-center text-white my-8 py-4 bg-blue-500 border border-4 border-blue-800 sticky top-36 z-10'>Other Projects:</div>
+            <ul className='flex flex-wrap justify-around my-8 py-8 border'>
               <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:bg-indigo-600 hover:-translate-y-1  transition ease-in'>
                 <ExternalLink href='https://jaywooski.github.io/Horiseon-challenge1/'>
                   <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white'>Horiseon</div>
