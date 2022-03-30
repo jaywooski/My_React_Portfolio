@@ -8,8 +8,8 @@ function AboutMe() {
     <div className='h-full flex flex-col border-4 '>
       {/* bg-center bg-me_about bg-cover bg-no-repeat  */}
       <Header />
-      <div className='flex flex-col bg-me_about bg-contain bg-center'>
-        <div className='w-full text-center text-xl bg-blue-500 border border-4 border-blue-800 text-white sticky top-28 z-10'>About Me</div>
+      <div className='flex flex-col h-4/5 bg-me_about bg-cover md:bg-contain bg-center'>
+        <div className='w-full text-center text-xl bg-blue-500 border border-4 border-blue-800 text-white sticky top-12  z-10'>About Me</div>
         <div className='h-3/5 lg:h-full py-1.5 mt-20 flex flex-col overflow-auto '> 
             {/* <div className='h-3/5 overflow-auto' > */}
               {/* <img src='./assets/IMG_3860.PNG' alt='Picture of me'/> */}
