@@ -5,13 +5,15 @@ import Header from './Header'
 
 function AboutMe() {
   return (
-    <div className='h-full border-4 bg-center bg-me_about bg-cover bg-no-repeat '>
+    <div className='h-full flex flex-col border-4 '>
+      {/* bg-center bg-me_about bg-cover bg-no-repeat  */}
       <Header />
-        <div className='text-center text-xl bg-blue-500 border border-4 border-blue-800 sticky top-28 z-10'>About Me</div>
-        <div className='h-3/5 lg:h-full py-1.5 md:mt-20 flex flex-row flex-wrap overflow-auto '> 
+      <div className='flex flex-col bg-me_about bg-contain bg-center'>
+        <div className='w-full text-center text-xl bg-blue-500 border border-4 border-blue-800 text-white sticky top-28 z-10'>About Me</div>
+        <div className='h-3/5 lg:h-full py-1.5 mt-20 flex flex-col overflow-auto '> 
             {/* <div className='h-3/5 overflow-auto' > */}
               {/* <img src='./assets/IMG_3860.PNG' alt='Picture of me'/> */}
-              <p className='w-5/12 backdrop-blur lg:backdrop-invert p-2 tracking-widest sm:text-xl text-sky-800 font-sans lg:my-auto lg:backdrop-blur xl:h-60'>
+              <p className='w-5/12 backdrop-blur md:text-white md:bg-sky-800 p-2 tracking-widest sm:text-xl text-sky-800 font-sans md:mb-auto xl:mt-96'>
                   Hi, I'm John Wooley. I'm currently an up and coming full-stack developer. I'm looking for new opportunities in the job field to
                   become one of the best assets to an interested development team.
                   I'm from Nashville, Tennessee born and raised. I consider myself creative too but I'm always going 
@@ -22,6 +24,8 @@ function AboutMe() {
               </p>
             {/* </div> */}
         </div>
+
+      </div>
       {/* <Footer/> */}
     </div>
   )
