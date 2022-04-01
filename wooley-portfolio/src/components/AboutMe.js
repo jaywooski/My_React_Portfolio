@@ -18,7 +18,7 @@ function AboutMe() {
                   become one of the best assets to an interested development team.
                   I'm from Nashville, Tennessee born and raised. I consider myself creative too but I'm always going 
                   to consider myself a student of the game because it is so much to learn in this field. Check out
-                  my page! I'll always return here to update some things from time to time. <ExternalLink className='text-blue-600 underline transition ease-in-out duration-300 hover:text-white hover:bg-blue-500' href="mailto:John.M.Wooley@gmail.com">Click Here</ExternalLink> to reach out to me about a task you need done or if you're down
+                  my page! I'll always return here to update some things from time to time. <ExternalLink className='text-blue-700 bg-white underline transition ease-in-out duration-300 hover:text-white hover:bg-blue-500' href="mailto:John.M.Wooley@gmail.com">Click Here</ExternalLink> to reach out to me about a task you need done or if you're down
                   to collaborate on a project. You can even stop by and say hi or give feedback about my page. I'm 
                   just a click away, always.
               </p>

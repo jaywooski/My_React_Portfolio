@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
 // FontAwesome Imports
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -18,7 +18,7 @@ import Projects from './components/Projects';
 import Welcome from './components/Welcome';
 
 // Adding fortawesome icons to project library
-library.add(faBars)
+library.add(faBars, faLinkedin, faGithub)
 
 function App() {
   return (
@@ -33,6 +33,7 @@ function App() {
             <Route path ="/contact" element={ <Contact/> } />
           </Routes>
         </main>
+        <Footer />
 
       </div>
     </Router>
