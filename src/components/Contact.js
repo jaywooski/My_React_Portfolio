@@ -5,9 +5,9 @@ import Header from './Header'
 
 function Contact() {
   return (
-    <div className='flex flex-col h-full' >
+    <div className='flex flex-col h-fit xl:h-full' >
         <Header />
-      <div className='flex flex-col h-fit ' >
+      <div className='flex flex-col h-fit xl:h-full ' >
         {/* Main content goes here */}
         <div className='mx-auto p-8 mt-40 text-xl text-white drop-shadow shadow-lg border border-4 bg-gradient-to-l from-blue-500 to-blue-900 rounded-lg w-1/2'>
           Reach out to me through these provided links included in the footer and also through email as the link is provided here below too. Hope to hear from you soon!
@@ -27,6 +27,7 @@ function Contact() {
         </div>
 
       </div>
+      <Footer />
     </div>
   )
 }

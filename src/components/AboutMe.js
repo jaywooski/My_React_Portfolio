@@ -26,7 +26,7 @@ function AboutMe() {
         </div>
 
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }

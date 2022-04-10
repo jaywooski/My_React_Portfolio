@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Navbar() {
   return (
     <div className='flex justify-around text-xl mt-auto text-white p-2 w-full'>
-        <Link to='/home'>
+        <Link to='/'>
             <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
                 Home
             </div>

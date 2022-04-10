@@ -14,7 +14,7 @@ function Dropdown() {
       {/* Dropdown menu below */}
       <div id='dropdown' className='hidden z-10 transition ease-in w-full divide-y border border-green-800 bg-white'>
         <ul className='text-gray-700 text-center h-1/2 border flex-col justify-around' aria-labelledby='dropdownDefault'>
-          <Link className=' ' to="/home">
+          <Link className=' ' to="/">
             <li className='block py-2 px-4 border transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>Home</li>
           </Link>
           <Link to="/about">
