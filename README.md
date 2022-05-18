@@ -7,7 +7,7 @@ This site is intended for potential employers and other developers to take recog
 
 My website is to be used as motivation to fellow new come developers as well as inspiration and qualifications to potential employers to hire me for my services. 
 
-This project is showing me that coding is more than possible and this career is both mind challenging and life-changing as it keeps me humble and focused in relation to my background and monetary situations. With this profession I am able to broadcast both intellect and creativity and create things that will hopefully help impact the world or motivate the next person who will change the world. The marathon continues...
+This project is showing me that coding is more than possible and this career is both mind challenging and life-changing as it keeps me humble and focused in relation to my background and monetary situations. With this profession I am able to broadcast both intellect and creativity and create things that will hopefully help impact the world or motivate the next person who will change the world. The marathon continues...!
 
 
 
