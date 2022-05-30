@@ -17,7 +17,7 @@ function Contact() {
         <div className='flex flex-col mb-0 mx-auto mt-40 text-xl text-white drop-shadow shadow-lg border border-4 bg-gradient-to-l from-blue-500 to-blue-900 rounded-lg w-1/2' >
           <div className='flex justify-center bg-blue-500 p-12 border rounded-t-lg text-center tracking-wide text-2xl bg-gradient-to-r from-black to-blue-700 '>Contact Info</div>
           <div className='h-fit flex flex-col border rounded-b-lg flex-wrap justify-around'>
-            <ExternalLink href='mailto:John.M.Wooley@gmail.com' className='text-center px-auto py-4 active:bg-indigo-800 transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>Email Me</ExternalLink> 
+            <ExternalLink href='mailto:John.M.Wooley@gmail.com' className='text-center px-auto py-4 active:bg-indigo-800 transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>Email Me: john.m.wooley@gmail.com</ExternalLink> 
             <div className='flex flex-col text-center border-t text-center px-auto py-4 transition ease-in-out duration-300 hover:text-white hover:bg-blue-500'>
               <div>Call Me @</div>
               <div>615-772-3035</div>
