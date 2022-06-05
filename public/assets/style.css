@@ -20,7 +20,7 @@ p {
 }
 
 /* Header/hero/navigation link styles */
-header {
+.header {
     background-image: linear-gradient(to right, rgba(5, 71, 122, 1), rgba(16, 137, 230, 0.5));
     background-position: center;
     background-size: cover;
@@ -34,6 +34,7 @@ header {
     align-content: center;
     position: sticky;
     position: -webkit-sticky;
+    height: 30px;
 }
 
 header h1 {

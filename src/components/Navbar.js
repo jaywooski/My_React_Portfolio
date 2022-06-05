@@ -5,24 +5,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Navbar() {
   return (
-    <div className='flex justify-around text-xl mt-auto text-white p-2 w-full'>
+    <div className='text-xl text-white mt-4 p-2 w-full'>
         <Link to='/'>
-            <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
+            <div className=' inline-block w-1/4 text-center hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
                 Home
             </div>
         </Link>
         <Link to='/about'>
-            <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
+            <div className=' inline-block w-1/4 text-center hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
                 About
             </div>
         </Link>
         <Link to='/contact'>
-            <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
+            <div className=' inline-block w-1/4 text-center hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
                 Contact
             </div>
         </Link>
         <Link to='/projects'>
-            <div className=' hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
+            <div className=' inline-block w-1/4 text-center hover:bg-blue-700 hover:text-white active:bg-indigo-800 rounded-xl p-4 transition ease-in'>
                 Projects
             </div>
         </Link>
