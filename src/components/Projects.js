@@ -17,14 +17,14 @@ function Projects() {
           <div className='h-max flex flex-col justify-center my-4 py-8'> 
               <div className='text-center text-xl text-white p-6 my-8 bg-blue-500 border border-4 border-blue-800 sticky top-28 z-10'>Featured Project</div>
               <ExternalLink href='https://catro-gaming.herokuapp.com/'>
-              <div className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:bg-indigo-600 hover:-translate-y-1  transition ease-in'>
+              <div className='flex flex-col w-3/5 mx-auto border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:bg-indigo-600 hover:-translate-y-1  transition ease-in'>
                   <div className='text-center rounded-t-lg bg-blue-500 py-4 text-white '>Catro Gaming</div>
                   <img src="./assets/Arcatro_logo_4.png" alt="Programmer-Dashboard"/>
                   
               </div>
               </ExternalLink>
               <ExternalLink href='https://github.com/JoelKovalcson/Catro-Gaming'>
-                <div className='flex justify-center border border-2 border-blue-700 text-blue-800 hover:animate-pulse hover:bg-blue-800 hover:text-white hover:-translate-y-1  transition ease-in '>Github Repo Link Here</div>
+                <div className='mx-auto w-3/5 h-12 text-center border border-2 border-blue-700 text-blue-800 hover:animate-pulse hover:bg-blue-800 hover:text-white hover:-translate-y-1  transition ease-in '>Github Repo Link Here</div>
               </ExternalLink>
           </div>
 
@@ -32,7 +32,7 @@ function Projects() {
           <div className='flex flex-col'>
             <div className='text-xl text-center text-white my-8 py-4 bg-blue-500 border border-4 border-blue-800 sticky top-28  z-10'>Other Projects:</div>
             <ul className='flex flex-wrap justify-around my-8 py-8 border'>
-              <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:-translate-y-1 hover:animate-pulse transition ease-in'>
+              <li className='flex flex-col mx-auto w-3/5 border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:-translate-y-1 hover:animate-pulse transition ease-in'>
                 <ExternalLink href='https://jaywooski.github.io/Horiseon-challenge1/'>
                   <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white'>Horiseon</div>
                   <img src="./assets/Screenshot 2021-11-28 192625.png" alt="Horiseon"/>
@@ -42,7 +42,7 @@ function Projects() {
                   <div className='flex justify-center border border-2 border-blue-700 text-blue-800 bg:white hover:animate-pulse hover:bg-blue-800 hover:-translate-y-1 hover:text-white transition ease-in '>Github Repo Link Here</div>
                 </ExternalLink>
               </li>
-              <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
+              <li className='flex flex-col border-2 mx-auto w-3/5 my-8 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
                 <ExternalLink href='"https://jaywooski.github.io/Password-Generator-Wooley-3/'>
                   <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white '>Password Generator</div>
                   <img src="./assets/Screenshot 2021-11-28 192804.png" alt="Password Generator"/>
@@ -52,7 +52,7 @@ function Projects() {
                   <div className='flex justify-center border border-2 border-blue-700 text-blue-800 bg:white hover:animate-pulse hover:bg-blue-800 hover:-translate-y-1 hover:text-white transition ease-in '>Github Repo Link Here</div>
                 </ExternalLink>
               </li>
-              <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
+              <li className='flex flex-col mx-auto w-3/5 border-2 mb-8 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
                 <ExternalLink href='https://jaywooski.github.io/Wooley-Weather-Dashboard-Chal-6/'>
                 <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white '>Weather Forecast</div>
                   <img src="./assets/Screenshot 2021-11-28 193337.png" alt="Weather Forecast"/>
@@ -62,7 +62,7 @@ function Projects() {
                   <div className='flex justify-center border border-2 border-blue-700 text-blue-800 bg:white hover:animate-pulse hover:bg-blue-800 hover:-translate-y-1 hover:text-white transition ease-in '>Github Repo Link Here</div>
                 </ExternalLink>
               </li>
-              <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
+              <li className='flex flex-col mx-auto w-3/5 border-2 mb-8 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
                 <ExternalLink href='https://joelkovalcson.github.io/Programmer-Dashboard'>
                 <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white '>Programmer Dashboard</div>
                   <img src="./assets/Screenshot 2021-11-28 193523.png" alt="Programmer-Dashboard"/>
@@ -72,7 +72,7 @@ function Projects() {
                   <div className='flex justify-center border border-2 border-blue-700 text-blue-800 bg:white hover:animate-pulse hover:-translate-y-1 hover:bg-blue-800 hover:text-white transition ease-in '>Github Repo Link Here</div>
                 </ExternalLink>
               </li>
-              <li className='flex flex-col border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
+              <li className='flex flex-col mx-auto w-3/5 border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
                 <ExternalLink href='https://chattleship.herokuapp.com/'>
                 <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white '>Chattleship</div>
                   <img src="./assets/Screenshot 2022-01-30 174319.png" alt="Chattleship"/>
