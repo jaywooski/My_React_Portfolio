@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className='flex flex-col h-full' >
         <Header />
-      <div className='overflow my-20 sm:my-auto' >
+      <div className='h-full overflow my-40 sm:my-auto' >
         {/* Main content goes here */}
         <div className='mx-auto p-8 mb-12 md:mb-24 text-xl text-white drop-shadow shadow-lg border border-4 bg-gradient-to-l from-blue-500 to-blue-900 rounded-lg w-72 sm:w-96'>
           Reach out to me through these provided links included in the footer and also through email as the link is provided here below too. Hope to hear from you soon!
