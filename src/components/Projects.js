@@ -29,7 +29,7 @@ function Projects() {
           </div>
 
           {/* Rest of projects presented below  */}
-          <div className='flex flex-col'>
+          <div className='flex flex-col pb-20'>
             <div className='text-xl text-center text-white my-8 py-4 bg-blue-500 border border-4 border-blue-800 sticky top-28  z-10'>Other Projects:</div>
             <ul className='flex flex-wrap justify-around my-8 py-8 border'>
               <li className='flex flex-col mx-auto w-3/5 border-2 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:-translate-y-1 hover:animate-pulse transition ease-in'>

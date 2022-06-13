@@ -2,12 +2,14 @@ import React from 'react'
 import { ExternalLink } from 'react-external-link'
 import Footer from './Footer'
 import Header from './Header'
+import Resume from '../assets/resume.pdf'
 
 function Contact() {
   return (
-    <div className='flex flex-col h-full' >
+    <div className='h-full' >
         <Header />
-      <div className='h-full overflow my-40 sm:my-auto' >
+      {/* <div className='h-full overflow pb-40 my-40 sm:my-auto' > */}
+      <div className='pb-60 pt-40 md:pb-36 2xl:pt-96'>
         {/* Main content goes here */}
         <div className='mx-auto p-8 mb-12 md:mb-24 text-xl text-white drop-shadow shadow-lg border border-4 bg-gradient-to-l from-blue-500 to-blue-900 rounded-lg w-72 sm:w-96'>
           Reach out to me through these provided links included in the footer and also through email as the link is provided here below too. Hope to hear from you soon!
@@ -22,7 +24,7 @@ function Contact() {
               <div>Call Me @</div>
               <div>(615) 772-3035</div>
             </div>
-            <ExternalLink className='text-center px-auto py-4 border-t active:bg-indigo-800 rounded-b-lg transition ease-in-out duration-300 hover:text-white hover:bg-blue-500' href='https://my.indeed.com/p/johnw-lv6zcmi/pdf'>Download Resume</ExternalLink>
+            <ExternalLink className='text-center px-auto py-4 border-t active:bg-indigo-800 rounded-b-lg transition ease-in-out duration-300 hover:text-white hover:bg-blue-500' href={Resume} download='John Wooley' >Download Resume</ExternalLink>
           </div>
         </div>
 
