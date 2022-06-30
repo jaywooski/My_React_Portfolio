@@ -43,7 +43,7 @@ function Projects() {
                 </ExternalLink>
               </li>
               <li className='flex flex-col border-2 mx-auto w-3/5 my-8 rounded-t-lg drop-shadow shadow-lg active:scale-50 hover:animate-pulse hover:-translate-y-1 transition ease-in'>
-                <ExternalLink href='"https://jaywooski.github.io/Password-Generator-Wooley-3/'>
+                <ExternalLink href='https://jaywooski.github.io/Password-Generator-Wooley-3/'>
                   <div className='text-center rounded-t-lg bg-blue-500 py-2 text-white '>Password Generator</div>
                   <img src="./assets/Screenshot 2021-11-28 192804.png" alt="Password Generator"/>
                 </ExternalLink>
