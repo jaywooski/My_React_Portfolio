@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Header from './Header'
+// import Header from './Header'
 
 
 function Welcome() {
   return (
     <div className='flex flex-col justify-around h-full bg-me bg-no-repeat dark:invert-0 bg-auto bg-center md:bg-contain lg:justify-between'>
       <div className='h-full'>
-        <img src='../public/assets/IMG_5069 (1).jpg'/>
+        {/* <img src='../public/assets/IMG_5069 (1).jpg'/> */}
       </div>
-      <div className='h-1/3 pb-40 text-4xl font-semibold tracking-widest text-center lg:p-24 lg:text-5xl transition-transform ease-in-out duration-700 hover:-translate-y-7'>Welcome to My Portfolio</div>
+      <h1 className='font-permanent-marker'>Welcome to My Portfolio</h1>
       <Link className='mx-auto' to='/home'>
         <button type="button" 
         className="text-gray-900 

@@ -9,6 +9,9 @@ module.exports = {
         'me': "url('/public/assets/Me_John.jpg')",
         'me_2': "url('/public/assets/DSC06953_Original.jpg')",
         'me_about': "url('/public/assets/DSC02097.jpg')"
+      },
+      fontFamily: {
+        'permanent-marker': ['Permanent Marker', 'cursive']
       }
     },
   },

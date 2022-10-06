@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 /* Universal/global styles */
 :root {
     --first-color: #fffffe;
     --second-color: #566069;
     --third-color: #fdf9f1; /*  */
+
 }
 
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Permanent Marker', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 
 }
 h1{
+    
     text-align: center;
+    font-family: ;
 }
 
 p {
