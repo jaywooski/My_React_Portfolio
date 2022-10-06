@@ -9,41 +9,10 @@ function Welcome() {
       <div className='h-full'>
         {/* <img src='../public/assets/IMG_5069 (1).jpg'/> */}
       </div>
-      <h1 className='font-permanent-marker'>Welcome to My Portfolio</h1>
-      <Link className='mx-auto' to='/home'>
+      <h1 className=''>Welcome to My Portfolio</h1>
+      <Link className='' to='/home'>
         <button type="button" 
-        className="text-gray-900 
-                  bg-white 
-                  border 
-                  border-gray-300 
-                  focus:outline-none
-                  hover:bg-gray-100
-                  hover:scale-125
-                  hover: transition
-                  hover: ease-in-out
-                  hover:duration-400 
-                  active:bg-gray-600
-                  active:text-white
-                  focus:ring-4 
-                  focus:ring-gray-200 
-                  font-medium 
-                  rounded-lg 
-                  text-sm
-
-                  px-2 
-                  py-2 
-                  mt-40 
-                  lg:mb-40
-                  lg:text-xl
-                  lg:w-36
-                  h-12
-                  w-24
-                  dark:bg-gray-800 
-                  dark:text-white 
-                  dark:border-gray-600 
-                  dark:hover:bg-gray-700 
-                  dark:hover:border-gray-600 
-                  dark:focus:ring-gray-700">Enter</button>
+        className="">Enter</button>
 
       </Link>
 
