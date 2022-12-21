@@ -6,11 +6,11 @@ import Tester from './Tester'
 
 function Header() {
   return (
-    <div className='flex h-28 w-full border-4 border-blue-600 drop-shadow shadow-lg bg-gradient-to-l from-black to-blue-700 fixed top-0 z-50' >
-      <div className='hidden sm:block w-full '>
+    <div className='' >
+      <div className=''>
         <Navbar/>
       </div>
-      <div className='text-center m-auto sm:hidden'>
+      <div className=''>
         <Dropdown />
       </div>
     </div>

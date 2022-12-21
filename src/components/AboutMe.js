@@ -7,12 +7,12 @@ function AboutMe() {
   return (
     <div className=''>
       {/* bg-center bg-me_about bg-cover bg-no-repeat  */}
-      <Header />
-      <div className='w-full text-center text-xl bg-blue-500 outline outline-blue-800 text-white fixed top-28 z-10'>About Me</div>
-      <div className='py-36 bg-me_about bg-center bg-cover bg-fixed 2xl:h-screen'> 
+      {/* <Header /> */}
+      <div className=''>About Me</div>
+      <div className=''> 
           {/* <div className='h-3/5 overflow-auto' > */}
           {/* <img src='./assets/IMG_3860.PNG' alt='Picture of me'/> */}
-          <p className=' w-1/2 sm:w-1/3 text-white bg-sky-800/70 p-2 tracking-widest sm:text-xl font-sans md:pb-auto'>
+          <p className=''>
               Hi, I'm John Wooley. I'm currently an up and coming full-stack developer. I'm looking for new opportunities in the job field to
               become one of the best assets to an interested development team.
               I'm from Nashville, Tennessee born and raised. I consider myself creative too but I'm always going 
@@ -22,7 +22,7 @@ function AboutMe() {
           </p>
           {/* </div> */}
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
