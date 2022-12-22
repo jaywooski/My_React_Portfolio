@@ -1,0 +1,15 @@
+/* import stylesheet */
+
+.mobile{
+    display: none;
+}
+
+@media (max-width: 991.98px){
+    .mobile {
+        display: inline-flex;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
