@@ -9,7 +9,6 @@ import Homepage from './Homepage';
 import Contact from './Contact';
 import AboutMe from './AboutMe'
 import Projects from './Projects';
-import Welcome from './Welcome';
 
 
 class EnteringPage extends Component {
