@@ -3,12 +3,12 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
 // importing components
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Homepage from './components/Homepage';
-import Contact from './components/Contact';
-import AboutMe from './components/AboutMe'
-import Projects from './components/Projects';
+import Header from './Header';
+import Footer from './Footer';
+import Homepage from './Homepage';
+import Contact from './Contact';
+import AboutMe from './AboutMe'
+import Projects from './Projects';
 
 
 class EnteringPage extends Component {
