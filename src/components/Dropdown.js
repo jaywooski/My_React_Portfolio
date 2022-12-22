@@ -14,9 +14,9 @@ const Dropdown = () => {
 
   return (
 
-    <div className=''>
-        <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button>
-        {toggled ? <DropMenu /> : null}
+    <div className='dropmenu'>
+        <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button> Menu
+        {toggled ? <div className='modal'><DropMenu /></div> : null}
     </div>
   )
 }

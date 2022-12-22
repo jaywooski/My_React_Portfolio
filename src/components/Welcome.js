@@ -22,9 +22,9 @@ class Welcome extends Component {
           {/* <img src='../public/assets/IMG_5069 (1).jpg'/> */}
         </div>
         <h1 className=''>Welcome to My Portfolio</h1>
-        <Link className='' to='/home'>
+        {/* <Link className='' to='/home'> */}
           <button type="button" className="" onClick={this.props.active}>Enter</button>
-        </Link>
+        {/* </Link> */}
   
       </div>
     )

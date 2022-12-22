@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const DropMenu = () => {
   return (
-    <div>
+    <div className='dropmenu '>
         <div><Link to="/home">Home</Link></div>
         <div><Link to="/about">About</Link></div>
         <div><Link to="/projects">Projects</Link></div>

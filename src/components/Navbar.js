@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Navbar() {
   return (
     <div className=''>
-        <Link to='/'>
+        <Link to='/home'>
             <div className=''>
                 Home
             </div>

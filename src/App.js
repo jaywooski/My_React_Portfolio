@@ -11,6 +11,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 // Components/Pages imported below
 import Welcome from './components/Welcome';
 import EnteringPage from './components/EnteringPage';
+import './css/styles.css'
 // importing components
 
 

@@ -20,7 +20,7 @@ class EnteringPage extends Component {
           <main className='h-full '>
             <Header />
             <Routes>
-              <Route path ="/home" element={ <Homepage/> } />
+              <Route path ="/" element={ <Homepage/> } />
               <Route path ="/about" element={ <AboutMe/> } />
               <Route path ="/projects" element={ <Projects/> } />
               <Route path ="/contact" element={ <Contact/> } />

@@ -1,4 +1,10 @@
-/* import stylesheet */
+/* import fonts to stylesheet  */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@0;1&family=Manrope:wght@800&display=swap');
+
+* {
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Manrope', sans-serif; */
+}
 
 .mobile{
     display: none;
@@ -11,5 +17,34 @@
 
     .desktop {
         display: none;
+    }
+    
+    .header {
+        height: 60px;
+        outline: green 2px solid;
+        /* background-image: url('../../public/assets/blue\ gradient.jpg'); */
+        background-color: rgb(7, 136, 249);
+        font-family: 'Kanit', sans-serif;
+
+    }
+
+    .dropdown {
+        display: flex;
+        outline: 1px red solid;
+        
+        /* align-content: center; */
+        /* height: max-content; */
+        padding: 15px 10px;
+    }
+    
+    .modal {
+        background-color: hsla(0, 0, 0, 0.5);
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        z-index: 10;
+    }
+    
+    .dropmenu {
     }
 }
