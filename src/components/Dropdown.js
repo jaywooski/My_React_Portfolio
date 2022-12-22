@@ -14,7 +14,7 @@ const Dropdown = () => {
 
   return (
 
-    <div className=''>
+    <div className='mobile'>
         <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button>
         {toggled ? <DropMenu /> : null}
     </div>

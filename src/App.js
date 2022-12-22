@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+// import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
+
+// Link CSS sheet
+import './css/styles.css'
 
 // FontAwesome Imports
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -11,23 +14,25 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 // Components/Pages imported below
 import Welcome from './components/Welcome';
 import EnteringPage from './components/EnteringPage';
-// importing components
-
 
 // Adding fortawesome icons to project library
 library.add(faBars, faLinkedin, faGithub)
 
+
+
 const App = () => {
-  const [isActive, setActive] = useState(true)
+  const [isActive, setActive] = useState(false)
 
-
-  const handleWelcoming = () => {
-    setActive(!isActive)
+  const handleActiveState = () => {
+    setActive(!isActive);
   }
+
 
   return (
     <div>
-      {isActive ? <Welcome active={handleWelcoming}/> : <EnteringPage />}
+      {/* <Welcome active={handleActiveState}/> */}
+      {/* {!isActive ? <Welcome /> : <EnteringPage />} */}
+      <EnteringPage />
     </div>
   );
 }
