@@ -8,14 +8,19 @@ import DropMenu from './DropMenu'
 const Dropdown = () => {
   const [toggled, setToggled] = useState(false);
 
-  const handleDropDown = () => {
+  const handleDropDown = (e) => {
     setToggled(!toggled);
+    // const area = e.target.value;
+    // !area ? setToggled(!toggled) : setToggled(toggled);
   }
 
   return (
-
-    <div className='dropmenu'>
-        <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button> Menu
+    <div className='header-fmt'>
+      <div className='dropmenu'>
+          <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button>
+          <div className='menu-hdr'>Menu</div>
+      </div>
+        
         {toggled ? <div className='modal'><DropMenu /></div> : null}
     </div>
   )

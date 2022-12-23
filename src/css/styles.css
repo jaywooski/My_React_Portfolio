@@ -10,41 +10,84 @@
     display: none;
 }
 
-@media (max-width: 991.98px){
+@media (max-width: 767px){
     .mobile {
-        display: inline-flex;
+        display: flex;
+        flex-direction: column;
     }
 
     .desktop {
         display: none;
     }
+
+    /* Header Styles */
     
     .header {
         height: 60px;
-        outline: green 2px solid;
+        /* outline: green 2px solid; */
         /* background-image: url('../../public/assets/blue\ gradient.jpg'); */
-        background-color: rgb(7, 136, 249);
+        background-color: rgb(23, 53, 154);
         font-family: 'Kanit', sans-serif;
+        color: white;
 
+    }
+
+    .header-fmt {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
     }
 
     .dropdown {
-        display: flex;
-        outline: 1px red solid;
-        
-        /* align-content: center; */
-        /* height: max-content; */
-        padding: 15px 10px;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* outline: 2px darkblue solid; */
+        padding: 19px 10px;
+        /* background-color: greenyellow; */
+        /* z-index: 10; */
+    }
+
+    .dropdown-list div {
+        padding: 2px;
+        outline: 1px gray solid;
+        /* text-decoration: none; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
     }
     
     .modal {
-        background-color: hsla(0, 0, 0, 0.5);
-        position: fixed;
-        height: 100vh;
-        width: 100vw;
-        z-index: 10;
+        background-color: white;
+        outline: 1px gray solid;
+        z-index: 0;
     }
     
     .dropmenu {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        /* outline: 3px darkblue solid; */
+        width: 20%;
+        padding-right: 7px;
+        /* background-color: greenyellow; */
+    }
+
+    .menu-hdr {
+        padding: 0px 7px;
+    }
+
+    /* Footer Styles */
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 40px;
+        background-color: rgb(23, 53, 154);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        /* outline: 2px green solid; */
+        bottom: 0;
     }
 }

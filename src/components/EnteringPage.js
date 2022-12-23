@@ -16,11 +16,11 @@ class EnteringPage extends Component {
   render() {
     return (
         <Router>
-        <div className='h-screen '>
-          <main className='h-full '>
+        <div className=''>
+          <main className=''>
             <Header />
             <Routes>
-              <Route path ="/" element={ <Homepage/> } />
+              <Route path ="/home" element={ <Homepage/> } />
               <Route path ="/about" element={ <AboutMe/> } />
               <Route path ="/projects" element={ <Projects/> } />
               <Route path ="/contact" element={ <Contact/> } />
