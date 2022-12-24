@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
 
 // FontAwesome Imports
@@ -20,6 +20,16 @@ library.add(faBars, faLinkedin, faGithub)
 
 const App = () => {
   const [isActive, setActive] = useState(true)
+
+  // useEffect(() => {
+    
+    // (!isActive) ? null : alert('isActive is set to true!')
+    // return () => {
+    //   second
+    // }
+  // }, [isActive])
+  
+  /*I want to create the ability for the state to remain the same even if the page is refreshed.*/
 
 
   const handleWelcoming = () => {

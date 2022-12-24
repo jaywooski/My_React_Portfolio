@@ -7,7 +7,7 @@ const DropMenu = () => {
     display: 'flex',
     justifyContent: 'center',
     textDecoration: 'none'
-    
+
   }
 
   return (

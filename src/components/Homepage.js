@@ -8,7 +8,7 @@ function Homepage() {
       {/* < Header/> */}
         <div className=''>
           {/* <img className='w-2/3 ' src='./assets/DSC06953_Original.jpg'/> */}
-          <div className=''>
+          <div className='homepage'>
             <p className=''>Welcome to My Portfolio</p>
             <p className=''>Navigating through my pages, you should be able to see my work, contact info and just a touch of my style. I hope you enjoy..</p>
           </div>

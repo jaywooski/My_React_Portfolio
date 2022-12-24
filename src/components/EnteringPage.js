@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 
 // importing components
@@ -9,6 +9,7 @@ import Homepage from './Homepage';
 import Contact from './Contact';
 import AboutMe from './AboutMe'
 import Projects from './Projects';
+import Welcome from './Welcome';
 
 
 class EnteringPage extends Component {
@@ -20,6 +21,8 @@ class EnteringPage extends Component {
           <main className=''>
             <Header />
             <Routes>
+              
+              <Route path ="/" element={ <Navigate replace to={'/home'} />} />
               <Route path ="/home" element={ <Homepage/> } />
               <Route path ="/about" element={ <AboutMe/> } />
               <Route path ="/projects" element={ <Projects/> } />

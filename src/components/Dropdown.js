@@ -18,7 +18,7 @@ const Dropdown = () => {
     <div className='header-fmt'>
       <div className='dropmenu'>
           <button onClick={handleDropDown} type='button'><FontAwesomeIcon icon="fa-solid fa-bars"/></button>
-          <div className='menu-hdr'>Menu</div>
+          <div className='menu-hdr' style={{fontSize: 'larger'}}>Menu</div>
       </div>
         
         {toggled ? <div className='modal'><DropMenu /></div> : null}
