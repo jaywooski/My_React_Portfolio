@@ -1,16 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function Navbar() {
   return (
-    <div className='desktop'>
-        <Link to='/home'>
+    <div className=''>
+        <NavLink to='/home'>
             <div className=''>
                 Home
             </div>
-        </Link>
+        </NavLink>
         <Link to='/about'>
             <div className=''>
                 About

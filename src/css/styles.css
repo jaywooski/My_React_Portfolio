@@ -1,19 +1,134 @@
-<<<<<<< HEAD
-
-=======
-/* import stylesheet */
->>>>>>> feature/styling-whole-page
 
 .mobile{
     display: none;
 }
 
-@media (max-width: 991.98px){
+@media (max-width: 767px){
     .mobile {
-        display: inline-flex;
+        display: flex;
+        flex-direction: column;
     }
 
     .desktop {
         display: none;
+    }
+
+    /* Header Styles */
+    
+    .header {
+        height: 60px;
+        /* width: 100vw; */
+        /* outline: green 2px solid; */
+        /* background-image: url('../../public/assets/blue\ gradient.jpg'); */
+        background: linear-gradient(rgb(13, 25, 87), rgb(121, 138, 207));
+        font-family: 'Kanit', sans-serif;
+        color: white;
+
+    }
+
+    .header-fmt {
+        display: flex;
+        /* align-items: flex-end; */
+        flex-direction: column;
+    }
+
+    .dropdown {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* outline: 2px darkblue solid; */
+        padding: 19px 10px;
+        /* background-color: greenyellow; */
+        /* z-index: 10; */
+    }
+
+    .dropdown-list div {
+        padding: 2px;
+        outline: 1px gray solid;
+        /* text-decoration: none; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+    }
+    
+    .modal {
+        background-color: white;
+        outline: 1px gray solid;
+        z-index: 0;
+    }
+    
+    .dropmenu {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        /* outline: 3px darkblue solid; */
+        width: 20%;
+        padding-right: 7px;
+        /* background-color: greenyellow; */
+    }
+
+    .menu-hdr {
+        padding: 0px 7px;
+    }
+
+    /* Footer Styles */
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 40px;
+        background: linear-gradient(rgb(121, 138, 207), rgb(13, 25, 87));
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        /* outline: 2px green solid; */
+        bottom: 0;
+    }
+
+    /* ******************************* */
+    /* ********Component Styles******* */
+    /* ******************************* */
+
+    /* Homepage component */
+
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 50px;
+        background-image: url(../../public/assets/IMG_5069\ \(1\).jpg);
+        background-size: cover;
+        min-height: 600px;
+        background-position: center;
+    }
+
+    .welcome h1 {
+        font-family: 'Manrope', sans-serif;
+        background-color: rgba(20, 6, 165, 0.4);
+        color: white;
+        text-align: center;
+    }
+
+    #welcome-btn {
+        /* margin-bottom: 100px; */
+        width: 30%;
+        margin: 0 auto 100px;
+        color: white;
+        background-color: darkblue;
+        border-radius: 15px;
+        font-family: 'Manrope', sans-serif;
+        /* font-size: large; */
+        border-style: ridge;
+        padding: 10px 0px;
+    }
+
+    #welcome-btn:hover {
+        background-color: lightblue;
+        color: darkblue;
+    }
+
+    #welcome-btn:active {
+        transform: scale(0.8, 0.8);
+        transition-duration: 200ms;
     }
 }

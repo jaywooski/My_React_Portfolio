@@ -6,11 +6,11 @@ import Tester from './Tester'
 
 function Header() {
   return (
-    <div className='' >
-      <div className=''>
+    <div className='header' >
+      <div className='desktop'>
         <Navbar/>
       </div>
-      <div className=''>
+      <div className='mobile dropdown'>
         <Dropdown />
       </div>
     </div>
