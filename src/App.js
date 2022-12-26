@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes,  } from 'react-router-dom';
 
 // FontAwesome Imports
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -12,6 +12,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import Welcome from './components/Welcome';
 import EnteringPage from './components/EnteringPage';
 import './css/styles.css'
+import { Navigate } from 'react-router-dom';
 // importing components
 
 
@@ -19,35 +20,55 @@ import './css/styles.css'
 library.add(faBars, faLinkedin, faGithub)
 
 const App = () => {
-  const [isNew, setNew] = useState(true)
+  const [isNew, setNew] = useState(JSON.parse(sessionStorage.getItem('newState')));
 
   useEffect(() => {
-   
-    sessionStorage.setItem('newState', JSON.stringify(isNew))
-    // (!isNew) ? null : alert('isNew is set to true!')
-    // return () => {
-    //   second
+
+    const currentState = JSON.parse(sessionStorage.getItem('newState'));
+    setNew(true);
+    // if(currentState){
+    //   sessionStorage.setItem('newState', false);
+    //   setNew(currentState)
+
     // }
-  }, [isNew])
+    sessionStorage.setItem('newState', currentState);
+    setNew(currentState);
+
+    
+    }
+    
+  , [isNew]);
+
+  // useEffect(() => {
+    
+    
+  // }, [])
+
+  // useEffect(() => {
+  //   setNew(JSON.parse(sessionStorage.getItem('newState')));
+
+  // }, [isNew])
+
+  
+  // const state = JSON.parse(sessionStorage.getItem('newState'));
+  // const newState = (state) ? (state) : false ;
   
   /*I want to create the ability for the state to remain the same even if the page is refreshed.*/
-
-  useEffect(() => {
-    const state = JSON.parse(sessionStorage.getItem('newState'));
-    if (state) {
-      setNew(isNew);
-    }
-  }, [isNew])
+  
 
   const handleWelcoming = () => {
-    setNew(false);
+    sessionStorage.setItem('newState', false);
+    setNew(JSON.parse(sessionStorage.getItem('newState')));
+    // // window.Event.preventDefault();
+    
   }
+  
+  
 
-  const newState = JSON.parse(sessionStorage.getItem('newState'))
 
   return (
     <div>
-      {newState ? <Welcome newUser={handleWelcoming}/> : <EnteringPage />}
+      {(JSON.parse(sessionStorage.getItem('newState'))) == true ? <Welcome newUser={handleWelcoming}/> : <EnteringPage />}
     </div>
   );
 }
