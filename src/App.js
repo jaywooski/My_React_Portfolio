@@ -19,26 +19,35 @@ import './css/styles.css'
 library.add(faBars, faLinkedin, faGithub)
 
 const App = () => {
-  const [isActive, setActive] = useState(true)
+  const [isNew, setNew] = useState(true)
 
-  // useEffect(() => {
-    
-    // (!isActive) ? null : alert('isActive is set to true!')
+  useEffect(() => {
+   
+    sessionStorage.setItem('newState', JSON.stringify(isNew))
+    // (!isNew) ? null : alert('isNew is set to true!')
     // return () => {
     //   second
     // }
-  // }, [isActive])
+  }, [isNew])
   
   /*I want to create the ability for the state to remain the same even if the page is refreshed.*/
 
+  useEffect(() => {
+    const state = JSON.parse(sessionStorage.getItem('newState'));
+    if (state) {
+      setNew(isNew);
+    }
+  }, [isNew])
 
   const handleWelcoming = () => {
-    setActive(!isActive)
+    setNew(false);
   }
+
+  const newState = JSON.parse(sessionStorage.getItem('newState'))
 
   return (
     <div>
-      {isActive ? <Welcome active={handleWelcoming}/> : <EnteringPage />}
+      {newState ? <Welcome newUser={handleWelcoming}/> : <EnteringPage />}
     </div>
   );
 }

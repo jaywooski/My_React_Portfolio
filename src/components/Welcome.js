@@ -31,7 +31,7 @@ class Welcome extends Component {
         </div>
         <h1 className=''>Welcome to My Portfolio</h1>
         {/* <Link className='' to='/home'> */}
-          <button id='welcome-btn' type="button" className="" onClick={this.props.active}>Enter</button>
+          <button id='welcome-btn' type="button" className="" onClick={this.props.newUser}>Enter</button>
         {/* </Link> */}
   
       </div>
